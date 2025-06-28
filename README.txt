@@ -1,4 +1,5 @@
-This program was created by ForceNova. The main function is editing text into caps, queen-like text, and no-caps text.
+
+ This program was created by ForceNova. The main function is editing text into caps, queen-like text, and no-caps text.
 
  List of commands:
 
@@ -6,6 +7,9 @@ help // List of available programs
 print // Simple text editor. Allows you to modify text into Python-style formats (title, lower, and others)
 reprint // Starts new write session
 save // Save file
+read // Read file
+edit // Edit file
+!reset // Resets file directory
 clear // Clears the screen from clutter.
 changefolder // Changes saves folder_path
 quit; !q // Close session.
