@@ -156,7 +156,7 @@ while cmd == True:
     elif prompt == 'save':
         if notation == '':
             print('The program have no files. Saved file will be empty.')
-        save_option = input("Do you want to safe file? (+/-): ")
+        save_option = input("Do you want to save file? (+/-): ")
         if save_option == "+":
             os.makedirs(folder_path, exist_ok=True)
             filename = input("Enter filename: ")
